@@ -22,7 +22,6 @@ public class Task2S {
 			x = flat / 4;
 			floor=x+1;
 			System.out.println("Floor =" + floor);
-			
 			y = flat % 36;
 			if (y == 0){
 				enter=y;
