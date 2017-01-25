@@ -19,19 +19,15 @@ public class Task1 {
 		c = sc.nextInt();
 		System.out.println("Input d");
 		d = sc.nextInt();
-		if ((a > b) & (a > d)) {
+		if (a > b)  {
 			int max = a;
 			System.out.println("Max a =" + a);
 		} else {
-			if (b > c) {
-				int max = b;
-				System.out.println("Max b=" + b);
+			max=b;
+			System.out.println("Max b =" + b);
+			if (c > max) {
+				System.out.println("Max c=" + c);
 			} else {
-				if (c > d) {
-					int max = c;
-					System.out.println("Max c=" + c);
-				} else {
-					int max = d;
 					System.out.println("Max d=" + d);
 				}
 			}
